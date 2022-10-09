@@ -70,19 +70,32 @@
 
 .nav-links li {
     display: inline-block;
+    margin: 5px 10px;
 }
 
 .nav-links li a {
     font-family: 'Roboto-Regular', Times New Roman;
     color: white;
-    padding: 10px;
     text-decoration: none;
     cursor: pointer;
 }
 
-.nav-links li a:hover {
-    text-decoration: underline solid;
-    color: #1f9fd9;
+.nav-links li a::after {
+    font-family: 'Roboto-Regular', Times New Roman;
+    color: #3882f6;
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 5px;
+    background: transparent;
+    transition: all 0.3s;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+    background: #3882f6;
 }
 
 
@@ -203,6 +216,7 @@ aside {
     font-size: 20px;
     font-weight: 100;
     margin-top: 10px;
+    text-align: center;
 }
 
 
