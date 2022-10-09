@@ -132,7 +132,7 @@ h1 {
 }
 
 .first-button {
-    font-family: 'Roboto-Regular', Times New Roman;
+    font-family: 'Roboto-Bold', Times New Roman;
     color: white;
     font-size: 15px;
     background-color: #3882f6;
@@ -286,7 +286,7 @@ h5 {
 }
 
 .second-button {
-    font-family: 'Roboto-Regular', Times New Roman;
+    font-family: 'Roboto-Bold', Times New Roman;
     color: white;
     font-size: 15px;
     background-color: #3882f6;
