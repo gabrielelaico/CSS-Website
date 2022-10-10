@@ -158,9 +158,9 @@ h1 {
 }
 
 .first-button:hover {
-    color: white;
-    background-color: #cb49cc;
-    border: 1px solid #cb49cc;
+    color: #3882f6;
+    background-color: white;
+    border: 1px solid white;
 }
 
 
