@@ -198,13 +198,13 @@ aside {
     display: inline-block;
     align-items: center;
     width: 150px;
-    margin: 0px 50px;
+    margin: 0px 40px;
 }
 
 .img-info {
     border: 5px solid #3882f6;
     border-radius: 10px;
-    width: 180px;
+    width: 170px;
     height: auto;
     padding: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -214,7 +214,6 @@ aside {
     font-family: 'Roboto-Light', Times New Roman;
     color: #1f2937;
     font-size: 20px;
-    font-weight: 100;
     margin-top: 10px;
     text-align: center;
 }
@@ -228,7 +227,7 @@ aside {
     background-color: #e5e7eb;
     flex-direction: column;
     padding: 50px 10%;
-    height: 450px;
+    height: 400px;
 }
 
 blockquote {
@@ -237,6 +236,7 @@ blockquote {
     font-weight: 400;
     color: #1f2937;
     padding-top: 100px;
+    text-align: center;
 
 }
 
