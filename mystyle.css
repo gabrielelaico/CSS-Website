@@ -46,9 +46,6 @@
     box-sizing: border-box;
 }
 
-
-/*Header*/
-
 .header {
     font-family: 'Roboto-Black', Verdana, sans-serif;
     background-color: #1f2937;
@@ -97,10 +94,6 @@
     width: 100%;
     background: #3882f6;
 }
-
-
-
-/*Main Section*/
 
 .main-section {
     background-color: #1f2937;
@@ -163,9 +156,6 @@ h1 {
     border: 1px solid white;
 }
 
-
-/* information section*/
-
 .information {
     background-color: #fff;
     display: flex;
@@ -218,11 +208,6 @@ aside {
     text-align: center;
 }
 
-
-
-
-/*Blockquote*/
-
 .blockquote {
     background-color: #e5e7eb;
     flex-direction: column;
@@ -237,7 +222,6 @@ blockquote {
     color: #1f2937;
     padding-top: 100px;
     text-align: center;
-
 }
 
 cite {
@@ -245,11 +229,6 @@ cite {
     font-size: 20px;
     margin-left: 870px;
 }
-
-
-
-
-/*Sign up section*/
 
 .sign-up-section {
     background-color: #fff;
@@ -316,9 +295,6 @@ h5 {
     background-color: white;
     border: 3px solid white;
 }
-
-
-/*Footer*/
 
 .footer {
     background-color: #1f2937;
