@@ -95,6 +95,11 @@
     background: #3882f6;
 }
 
+
+
+
+
+
 .main-section {
     background-color: #1f2937;
     display: flex;
@@ -102,17 +107,10 @@
     padding: 50px 10%;
 }
 
-.title {
-    width: 40%;
-    align-content: center;
-    text-align: left;
-}
-
 h1 {
     font-family: 'Roboto-Bold', Verdana, sans-serif;
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 500;
     padding-top: 100px;
 }
 
@@ -124,14 +122,10 @@ h1 {
     margin-top: 10px;
 }
 
-.title-image {
-    width: 50%;
-    height: auto;
-}
-
 .main-image {
-    width: 700px;
+    width: 650px;
     height: auto;
+    padding-left: 50px;
     transform: translateY(-5%);
     animation: floater 3s infinite;
     transition: ease 1s;
@@ -140,13 +134,13 @@ h1 {
 .first-button {
     font-family: 'Roboto-Bold', Times New Roman;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     background-color: #3882f6;
-    width: 100px;
-    height: 35px;
-    border: 1px solid #3882f6;
+    width: 110px;
+    height: 40px;
+    border: 3px solid #3882f6;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 25px;
     cursor: pointer;
 }
 
@@ -156,63 +150,70 @@ h1 {
     border: 1px solid white;
 }
 
+
+
+
+
+
 .information {
     background-color: #fff;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     padding: 50px 10%;
 }
 
-.h2 {
+h2 {
     font-family: 'Roboto-Bold', Times New Roman;
     font-size: 36px;
     color: #1f2937;
     text-align: center;
-    padding-top: 40px;
-    margin: 0 auto;
+    margin-top: 40px;
 }
 
-aside {
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-    margin-left: 75px;
-    margin-bottom: 50px;
-
-}
-
-.info-box {
-    justify-content: space-between;
+.more-info {
+    display: flex;
     flex-direction: row;
-    display: inline-block;
-    align-items: center;
-    width: 150px;
-    margin: 0px 40px;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
-.img-info {
+figure {
+    margin-top: 80px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+figure img {
     border: 5px solid #3882f6;
     border-radius: 10px;
-    width: 170px;
+    width: 200px;
     height: auto;
     padding: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+figcaption {
+    text-align: center;
 }
 
 .p-info {
     font-family: 'Roboto-Light', Times New Roman;
     color: #1f2937;
     font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
+    margin-top: 12px;
 }
 
-.blockquote {
+
+
+
+
+blockquote {
     background-color: #e5e7eb;
     flex-direction: column;
     padding: 50px 10%;
-    height: 400px;
+    height: 300px;
 }
 
 blockquote {
@@ -230,30 +231,24 @@ cite {
     margin-left: 870px;
 }
 
-.sign-up-section {
-    background-color: #fff;
-    padding: 50px 10%;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.call-to-action-form {
+
+
+
+
+.call-to-action-section {
+    width: 800px;
+    height: auto;
     background-color: #3882f6;
     border: 5px solid #3882f6;
     border-radius: 5px;
-    width: 800px;
-    height: 80px;
+    margin: 50px auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.action-form-texts {
-    height: 50%;
-    width: 70%;
-    justify-content: center;
-    margin-top: 15px;
+.call-to-action-form {
+    margin: 20px;
 }
 
 h5 {
@@ -261,7 +256,6 @@ h5 {
     font-size: 18px;
     color: #F9FAF8;
     padding-left: 40px;
-    width: 60%;
 }
 
 #action-p {
@@ -269,13 +263,6 @@ h5 {
     font-size: 15px;
     color: #F9FAF8;
     padding-left: 40px;
-}
-
-.action-button {
-    width: 20%;
-    height: auto;
-    justify-content: center;
-    margin-top: 20px;
 }
 
 .second-button {
@@ -288,21 +275,27 @@ h5 {
     border: 3px solid white;
     border-radius: 5px;
     cursor: pointer;
+    margin: auto;
 }
 
 .second-button:hover {
-    color: #cb49cc;
+    color: #3882f6;
     background-color: white;
     border: 3px solid white;
 }
 
-.footer {
+
+
+
+
+
+
+footer {
     background-color: #1f2937;
     padding: 20px 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .copyright {
