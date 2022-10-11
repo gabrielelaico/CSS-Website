@@ -95,11 +95,6 @@
     background: #3882f6;
 }
 
-
-
-
-
-
 .main-section {
     background-color: #1f2937;
     display: flex;
@@ -123,7 +118,7 @@ h1 {
 }
 
 .main-image {
-    width: 650px;
+    width: 700px;
     height: auto;
     padding-left: 50px;
     transform: translateY(-5%);
@@ -149,11 +144,6 @@ h1 {
     background-color: white;
     border: 1px solid white;
 }
-
-
-
-
-
 
 .information {
     background-color: #fff;
@@ -184,7 +174,6 @@ figure {
     text-align: center;
 }
 
-
 figure img {
     border: 5px solid #3882f6;
     border-radius: 10px;
@@ -205,15 +194,11 @@ figcaption {
     margin-top: 12px;
 }
 
-
-
-
-
 blockquote {
     background-color: #e5e7eb;
     flex-direction: column;
     padding: 50px 10%;
-    height: 300px;
+    height: 350px;
 }
 
 blockquote {
@@ -230,11 +215,6 @@ cite {
     font-size: 20px;
     margin-left: 870px;
 }
-
-
-
-
-
 
 .call-to-action-section {
     width: 800px;
@@ -283,12 +263,6 @@ h5 {
     background-color: white;
     border: 3px solid white;
 }
-
-
-
-
-
-
 
 footer {
     background-color: #1f2937;
